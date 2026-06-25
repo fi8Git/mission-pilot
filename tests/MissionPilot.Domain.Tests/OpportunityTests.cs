@@ -3,7 +3,7 @@ using MissionPilot.Domain.Opportunities;
 
 namespace MissionPilot.Domain.Tests;
 
-public sealed class OppotunityTests
+public sealed class OpportunityTests
 {
     [Fact]
     public void Create_Should_Initialize_Opportunity_With_Default_State()

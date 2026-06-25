@@ -13,13 +13,16 @@ public sealed class Opportunity
         string title,
         string source,
         string description,
-        DateTimeOffset createAtUtc)
+        DateTimeOffset createdAtUtc)
     {
         Id = id;
         Title = title;
         Source = source;
         Description = description;
-        CreatedAtUtc = createAtUtc;
+        CreatedAtUtc = createdAtUtc;
+        UpdatedAtUtc = createdAtUtc;
+        Status = OpportunityStatus.ToAnalyze;
+        RemotePolicy = RemotePolicy.Unknown;
     }
 
     public Guid Id { get; }
