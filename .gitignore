@@ -1,0 +1,47 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local settings / secrets
+appsettings.Local.json
+appsettings.*.local.json
+.local/
+private/
+real-data/
+exports/
+
+# Environment files
+.env
+.env.*
+
+# Personal documents
+*.pdf
+*.docx
+*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
