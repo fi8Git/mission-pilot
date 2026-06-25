@@ -1,4 +1,4 @@
-﻿namespace MissionPilot.Domain.Tests;
+namespace MissionPilot.Domain.Tests;
 
 public sealed class MissionPilotProductTests
 {

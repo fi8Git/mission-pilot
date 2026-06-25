@@ -1,4 +1,4 @@
-﻿namespace MissionPilot.Infrastructure.Tests;
+namespace MissionPilot.Infrastructure.Tests;
 
 public class UnitTest1
 {
